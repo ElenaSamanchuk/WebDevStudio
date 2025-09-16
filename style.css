@@ -1440,6 +1440,13 @@ h6 {
   .card-image {
     border-radius: 10vw;
   }
+  .navbar {
+    padding: 7px 0;
+  }
+  .nav-menu.active {
+    top: 53px;
+    height: calc(100vh - 53px);
+  }
 }
 @media print {
   .cursor-dot,
