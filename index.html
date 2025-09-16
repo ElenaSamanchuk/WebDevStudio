@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDev Studio - Креативная Веб-разработка</title>
+    <meta
+      name="description"
+      content="Создаем невероятные цифровые миры. Веб-разработка нового уровня с потрясающими визуальными эффектами."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-content">
+          <div class="nav-brand">
+            <div class="logo">
+              <a href="#home">
+                <span class="logo-text">WebDev</span>
+                <div class="logo-pulse"></div>
+              </a>
+            </div>
+          </div>
+          <div class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link" data-text="Главная">Главная</a>
+            <a href="#services" class="nav-link" data-text="Услуги">Услуги</a>
+            <a href="#portfolio" class="nav-link" data-text="Портфолио"
+              >Портфолио</a
+            >
+            <a href="#about" class="nav-link" data-text="О нас">О нас</a>
+            <a href="#contact" class="nav-link" data-text="Контакты"
+              >Контакты</a
+            >
+          </div>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+          <div class="shape shape-5"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-label">
+              <span class="label-dot"></span>
+              Создаем будущее веба
+            </div>
+            <h1 class="hero-title">
+              <span class="title-line">Превращаем</span>
+              <span class="title-line gradient-text">идеи</span>
+              <span class="title-line">в цифровые</span>
+              <span class="title-line magic-text">шедевры</span>
+            </h1>
+            <p class="hero-description">
+              Мы не просто разрабатываем сайты — мы создаем интерактивные
+              вселенные, которые захватывают внимание и превращают посетителей в
+              фанатов вашего бренда.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact">
+              <button
+                class="btn btn-primary glow-btn"
+                data-text="Создать шедевр"
+              >
+                <span class="btn-text">Создать шедевр</span>
+                <div class="btn-shine"></div>
+              </button>
+              </a>
+              <a href="#portfolio">
+              <button class="btn btn-glass" data-text="Смотреть работы">
+                <span class="btn-text">Смотреть работы</span>
+                <div class="btn-border"></div>
+              </button>
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="floating-card">
+              <div class="card-content">
+                <div class="card-header">
+                  <div class="card-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="card-title">Ваш проект</div>
+                </div>
+                <div class="card-body">
+                  <div class="code-line">
+                    <span class="code-comment">// Магия начинается здесь</span>
+                  </div>
+                  <div class="code-line">
+                    <span class="code-keyword">const</span>
+                    <span class="code-variable">magic</span>
+                    <span class="code-operator">=</span>
+                    <span class="code-string">'создано'</span>
+                  </div>
+                  <div class="code-line typing-animation">
+                    <span class="code-function">transform</span
+                    ><span class="code-bracket">(</span
+                    ><span class="code-string">vision</span
+                    ><span class="code-bracket">)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="scroll-indicator">
+             <span class="scroll-text">Скролль для магии</span>
+             <a href="#services">
+                <div class="scroll-wheel">
+                    <div class="scroll-dot"></div>
+                </div>
+                </a>
+            </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="label-dot"></span>
+            Наши суперсилы
+          </div>
+          <h2 class="section-title">Что мы творим</h2>
+          <p class="section-description">
+            Каждая услуга — это не просто код, а произведение искусства,
+            созданное с любовью к деталям и страстью к инновациям
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card morphing-card" data-tilt>
+            <div class="service-icon">
+              <div class="icon-shape">
+                <i class="fa fa-font" aria-hidden="true"></i>
+              </div>
+              <div class="icon-particles">
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+              </div>
+            </div>
+            <h3 class="service-title">Копирайтинг</h3>
+            <p class="service-description">
+              Создаем истории, которые говорят с душой пользователя
+            </p>
+            <div class="service-tags">
+              <span class="tag">ЦА</span>
+              <span class="tag">УТП</span>
+              <span class="tag">SEO</span>
+            </div>
+          </div>
+          <div class="service-card morphing-card" data-tilt>
+            <div class="service-icon">
+              <div class="icon-shape">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L13.09 8.26L22 9L17 14L18.18 22L12 19L5.82 22L7 14L2 9L10.91 8.26L12 2Z"></path>
+                </svg>
+              </div>
+              <div class="icon-particles">
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+              </div>
+            </div>
+            <h3 class="service-title">Дизайн</h3>
+            <p class="service-description">
+              Превращаем визуал в незабываемое путешествие
+            </p>
+            <div class="service-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Prototype</span>
+              <span class="tag">UI/UX</span>
+            </div>
+          </div>
+          <div class="service-card morphing-card" data-tilt>
+            <div class="service-icon">
+              <div class="icon-shape">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9.4 16.6L4.8 12L3.4 13.4L9.4 19.4L20.6 8.2L19.2 6.8L9.4 16.6Z"
+                  />
+                </svg>
+              </div>
+              <div class="icon-particles">
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+              </div>
+            </div>
+            <h3 class="service-title">Верстка</h3>
+            <p class="service-description">
+              Воплощаем дизайн в живой, дышащий интерфейс с плавными анимациями и адаптивом
+            </p>
+            <div class="service-tags">
+              <span class="tag">HTML CSS JS</span>
+              <span class="tag">Tilda</span>
+              <span class="tag">Animation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="label-dot"></span>
+            Наши шедевры
+          </div>
+          <h2 class="section-title">Портфолио магии</h2>
+          <p class="section-description">
+            Каждый проект — это история успеха, рассказанная языком кода и
+            дизайна
+          </p>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card">
+              <div class="card-image">
+              
+                <video src="Frame1.mp4" muted autoplay loop ></video>
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <button class="view-project">
+                      <a href="https://gfmusic.pro" target="_blank">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5S21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12S9.24 7 12 7S17 9.24 17 12S14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z"
+                        />
+                      </svg>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-tags">
+                  <span class="tag">HTML CSS JS</span>
+                  <span class="tag">Tilda</span>
+                  <span class="tag">Animation</span>
+                </div>
+                <h3 class="project-title">Музыкальная платформа с базовыми функциями плеера</h3>
+                <p class="project-description">
+                  Разработали адаптивный и интерактивный интерфейс для музыкальной
+платформы с учётом принципов UX/UI. Интегрировали
+аудиоплеер с базовыми функциями. Оптимизировали скорость загрузки
+страниц за счёт использования ленивой загрузки.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="mobile">
+            <div class="portfolio-card">
+              <div class="card-image">
+                <video src="Frame2.mp4" muted autoplay loop ></video>
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <button class="view-project">
+                      <a href="https://amb.growfood.pro/page77136676.html" target="_blank">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5S21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12S9.24 7 12 7S17 9.24 17 12S14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z"
+                        />
+                      </svg>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-tags">
+                  <span class="tag">HTML CSS JS</span>
+                  <span class="tag">Tilda</span>
+                  <span class="tag">Animation</span>
+                </div>
+                <h3 class="project-title">Интерактивное «Колесо Фортуны»</h3>
+                <p class="project-description">
+                  Разработали высококонверсионный и вовлекающий виджет для проведения акции, который увеличит вовлеченность пользователей и стимулирует первую покупку.
+                  Виджет стал ярким акцентом на посадочной странице, значительно повысив время пребывания пользователей и конверсию благодаря позитивному игровому опыту и возможности получить реальную выгоду.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="ecommerce">
+            <div class="portfolio-card">
+              <div class="card-image">
+                <video src="Frame3.mp4" muted autoplay loop ></video>
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <button class="view-project">
+                      <a href="https://priem.menu/?cmz=wZWY" target="_blank">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5S21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12S9.24 7 12 7S17 9.24 17 12S14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z"
+                        />
+                      </svg>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-tags">
+                  <span class="tag">HTML CSS JS</span>
+                  <span class="tag">Tilda</span>
+                  <span class="tag">Animation</span>
+                </div>
+                <h3 class="project-title">Интерактивная карточная игра «Найди промокод»</h3>
+                <p class="project-description">
+                  Разработали вирусный и вовлекающий механизм распространения промокода.
+                Карты обладают плавной анимацией переворота, создавая эффект настоящей карточной игры. Дизайн выполнен в стилистике сайта, сохраняя фирменный стиль.
+              Игра полностью адаптирована под мобильные устройства.   
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card">
+              <div class="card-image">
+                <video src="Frame4.mp4" muted autoplay loop ></video>
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <button class="view-project">
+                      <a href="https://priem.menu/?cmz=3dRa" target="_blank">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5S21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12S9.24 7 12 7S17 9.24 17 12S14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z"
+                        />
+                      </svg>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-tags">
+                  <span class="tag">HTML CSS JS</span>
+                  <span class="tag">Tilda</span>
+                  <span class="tag">Animation</span>
+                </div>
+                <h3 class="project-title">Интерактивный бренд-квиз с промокодом</h3>
+                <p class="project-description">
+                  Разработали интерактивный маркетинговый инструмент, который в игровой форме знакомbт с брендом, а за проявленный интерес сразу выдает вознаграждение в виде промокода на скидку, что создает положительный опыт и повышает лояльность с первой же секунды.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <div class="section-label">
+              <span class="label-dot"></span>
+              Кто мы такие
+            </div>
+            <h2 class="section-title">
+              Команда <span class="gradient-text">мечтателей</span> и
+              <span class="gradient-text">творцов</span>
+            </h2>
+            <p class="section-description">
+              Мы не просто разработчики — мы цифровые алхимики, превращающие
+              невозможное в реальность. Каждый член нашей команды — это
+              уникальный талант с бесконечной страстью к инновациям.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number" data-count="150">0</div>
+                <div class="stat-label">Проектов запущено</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">% довольных клиентов</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="5">0</div>
+                <div class="stat-label">Лет магии</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="team-showcase">
+              <div class="showcase-card floating" style="--delay: 1s">
+                <div class="card-avatar">
+                  <img
+                    src="Rectangle1.png"
+                    alt="Мария"
+                  />
+                  <div class="avatar-ring"></div>
+                </div>
+                <div class="card-info">
+                  <h4>Мария</h4>
+                  <p>Копирайтинг гуру</p>
+                </div>
+              </div>
+              <div class="showcase-card floating" style="--delay: 0.5s">
+                <div class="card-avatar">
+                  <img
+                    src="Rectangle2.png"
+                    alt="Ольга"
+                  />
+                  <div class="avatar-ring"></div>
+                </div>
+                <div class="card-info">
+                  <h4>Ольга</h4>
+                  <p>UI/UX артист</p>
+                </div>
+              </div>
+              <div class="showcase-card floating" style="--delay: 0s">
+                <div class="card-avatar">
+                  <img
+                    src="Rectangle3.png"
+                    alt="Елена"
+                  />
+                  <div class="avatar-ring"></div>
+                </div>
+                <div class="card-info">
+                  <h4>Елена</h4>
+                  <p>Full-stack волшебник</p>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        
+        <div class="contact-content">
+           <div class="contact-form-container">
+           <div class="contact-info">
+            <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div class="info-content">
+                  <h4>Мария</h4>
+                  <a href="https://t.me/ilkiina" target="_blank"
+                    >@ilkiina</a
+                  >
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div class="info-content">
+                  <h4>Ольга</h4>
+                  <a href="https://t.me/molly_dsgn" target="_blank">@molly_dsgn</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div class="info-content">
+                  <h4>Елена</h4>
+                  <a href="https://t.me/ElaneDmitrievna" target="_blank"
+                    >@ElaneDmitrievna</a
+                  >
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="contact-text">
+            <div class="section-label">
+              <span class="label-dot"></span>
+              Давайте создадим магию вместе
+            </div>
+            <h2 class="section-title">
+              Готовы к <span class="gradient-text">невероятному</span> проекту?
+            </h2>
+            <p class="section-description">
+              Расскажите нам о своей мечте, и мы превратим её в цифровую
+              реальность, которая превзойдет все ваши ожидания.
+            </p>
+            
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-text">WebDev</span>
+              <div class="logo-pulse"></div>
+            </div>
+            <p>Создаем цифровые миры завтрашнего дня</p>
+          </div>
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Услуги</h4>
+              <a href="#services">Копирайтинг</a>
+              <a href="#services">Дизайн</a>
+              <a href="#services">Верстка</a>
+            </div>
+            <div class="link-group">
+              <h4>Компания</h4>
+              <a href="#about">О нас</a>
+              <a href="#portfolio">Портфолио</a>
+              <a href="#contact">Контакты</a>
+            </div>
+            <div class="link-group">
+              <h4>Соцсети</h4>
+              <a href="https://t.me/ilkiina" class="social-link" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+                Мария
+              </a>
+              <a href="https://t.me/molly_dsgn" class="social-link" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+                Ольга
+              </a>
+              <a href="https://t.me/ElaneDmitrievna" class="social-link" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+                Елена
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 WebDev Studio. Все права защищены магией кода ✨</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
